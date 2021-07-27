@@ -1,0 +1,763 @@
+/* =============================================================================================
+                                    <0.1> Google Fonts
+================================================================================================ */
+
+@import 
+url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;900&display=swap');
+
+
+/* =============================================================================================
+                                    <0.2> Default CSS
+================================================================================================ */
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+	background-color:#111110;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-padding {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.section-padding-top {
+	padding-top: 80px;
+}
+
+.section-padding-bottom {
+	padding-bottom: 80px;
+}
+
+/* =============================================================================================
+                                  <0.3>  Menu Part CSS
+================================================================================================ */
+
+#home-bg {
+    background: url("../images/background/bg-image.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+	width: 100%;	
+}
+
+.header-left-menu img {
+	width: 50px;
+	height: auto;
+	margin-left: 80px;
+}
+
+.main-menu li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+  .main-menu li a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600;
+    
+}
+
+.icon {
+	display: flex;
+	float: right;
+	list-style: none;
+	margin: -60px -390px;
+}
+
+.icon li i {
+    font-size: 16px;
+    color: #fff;
+    padding: 0 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.icon li i:hover {
+    color:#eb3b5a;
+	transform: translateY(-5px);
+}
+
+.header-left-menu .main-menu {
+	display: inline-block;
+}
+
+.header-left-menu {
+	padding: 20px 0px;
+}
+
+.main-menu ul li a {
+    padding: 0px 7px;
+}
+
+.header-right-menu .click {
+	float: right;
+	margin: -62px -600px;
+}
+
+.click a {
+	color: rgba(198,201,216,.75);
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 500;
+	border: 2px solid rgba(198,201,216,.75);
+	background: #151514;
+	padding: 12px 45px;
+	border-radius: 50px;
+	text-decoration: none;
+	transition: .5s;
+}
+
+.click a:hover {
+    color: #fff;
+    background-color: #eb3b5a;
+    border-color: #eb3b5a;
+    transition: .5s;
+}
+
+
+/* =============================================================================================
+                                  <0.4> Home Content Part CSS
+================================================================================================ */
+
+.home-content {
+    color: #eb3b5a;
+}
+
+.home-content p {
+	color: #ddd;
+	font-size: 15px;
+	text-transform: uppercase;
+	line-height: 30px;
+	letter-spacing: 3.5px;
+}
+
+.home-content h4 {
+	color: #fff;
+	font-size: 54px;
+	font-weight: 900;
+	text-transform: capitalize;
+}
+
+.home-content span {
+	color: #eb3b5a;
+	font-size: 54px;
+	font-weight: 700;
+	text-transform: capitalize;
+	line-height: 10px;
+}
+
+.home-content h5 {
+	color: #fff;
+	font-size: 54px;
+	font-weight: 700;
+	text-transform: capitalize;
+	line-height: 110px;
+}
+
+.home-content {
+	margin: 100px 0px;
+}
+
+.home-content a {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	border: 2px solid #84817a;
+	padding: 15px 45px;
+	text-decoration: none;
+	background: #000;
+	border-radius: 50px;
+	line-height: 80px;
+}
+
+.home-content a:hover {
+    color: #fff;
+    background-color: #eb3b5a;
+    border-color: #eb3b5a;
+    transition: .5s;
+}
+
+/* =============================================================================================
+                                    <0.5> About Part CSS
+================================================================================================ */
+
+.about-left img {
+	width: 530px;
+	height: 550px;
+	border-radius: 10px;
+}
+
+.about-right span {
+	color: #ddd;
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: capitalize;
+	letter-spacing: 1.5px;
+	background: #ca3c08;
+	background: -webkit-linear-gradient(to right, #ED0E0E 10%, #6C17FF 34%);
+	background: -moz-linear-gradient(to right, #ED0E0E 10%, #6C17FF 34%);
+	background: linear-gradient(to right, #ED0E0E 10%, #6C17FF 34%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#bg-color {
+	padding: 130px 0;
+	background-color: black;
+}
+
+.about-right h4 {
+	color: #fff;
+	font-size: 54px;
+	font-weight: 600;
+	text-transform: capitalize;
+	line-height: 80px;
+}
+
+.about-right p {
+	color: #ddd;
+	font-size: 16px;
+	text-transform: capitalize;	 
+}
+
+.nav {
+	width: 478px;
+	height: 68px;
+	background: black;
+	border: 2px solid #596275;
+	line-height: 48px;
+	border-radius: 50px;
+	margin: 30px 0;
+}
+.nav li {
+	padding-left: 0px;
+}
+
+ul li a {
+	color: #fff;
+	font-weight: 600;
+	text-transform: capitalize;
+	font-size: 15px;
+	border: 1px solid rgb(243, 242, 240);
+	border-radius: 50px;
+	border: none;
+}
+
+ul li a:hover {
+	background: #ca3c08;
+	color: #fff;
+}
+
+.nav li a {
+	padding: 0px 22px;
+	line-height: 65px;
+}
+
+.progress {
+	height: 5px;
+	margin: 15px 0;
+}
+
+.no {
+	float: right;
+}
+
+.progress-bar {
+	background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            	linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            	linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+/* =============================================================================================
+                                     <0.6> Service Part CSS
+================================================================================================ */
+
+.service .service-title {
+	margin: 0px 290px;
+	text-align: center;
+}
+
+.service-title span {
+    font-size: 16px;
+    text-transform: capitalize;
+	font-weight: 500;
+	background: #ca3c08;
+	background: -webkit-linear-gradient(to right, #ED0E0E 10%, #6C17FF 34%);
+	background: -moz-linear-gradient(to right, #ED0E0E 10%, #6C17FF 34%);
+	background: linear-gradient(to right, #ED0E0E 10%, #6C17FF 34%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.service-title h4 {
+	font-size: 48px;
+	color: #fff;
+	font-weight: 600;
+	text-transform: capitalize;
+	line-height: 90px;
+}
+
+.service-title p {
+	font-size: 16px;
+	color: #ddd;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+
+.service-icon img {
+	width: 50px;
+	height: 50px;
+	margin: 0 -20px;
+}
+
+.service-content h4 {
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: capitalize;
+	color: #fff;
+	line-height: 70px;
+	margin: 6px -12px;
+}
+
+.service-content p {
+	color: #747d8c;
+	font-size: 16px;
+	text-transform: capitalize;
+	font-weight: 500;
+	margin: 12px -10px;
+}
+
+.bg {
+	background-color: black;
+	padding: 50px 0px 40px 40px;
+	margin-top: 30px;
+	transition: .3s;
+}
+
+.bg:hover {
+	transform: translateY(-10px);
+	transition: .3s;
+}
+
+/* =============================================================================================
+                                    <0.7>  Project Part CSS
+================================================================================================ */
+
+.project-bg {
+	position: relative;
+	border: 1px solid #000;
+	height: 100%;
+	width: 100%;
+	border: none;
+	overflow: hidden;
+	border-radius: 10px;
+	background-color: #000;
+	z-index: 1;
+	opacity: 1.1;
+}
+
+.pro-content span {
+	color: rgb(197, 197, 197);
+	font-size: 18px;
+	text-transform: capitalize;
+}
+
+.pro-content h4 {
+	color: #fff;
+	font-size: 25px;
+	font-weight: 600;
+	text-transform: capitalize;
+	line-height: 60px;
+}
+
+.pro-content p {
+	color: rgb(197, 197, 197);
+	font-size: 16px;
+	text-transform: capitalize;
+}
+
+.pro-content {
+	position: absolute;
+	top: 350px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	transition: .3s all;
+}
+
+.project-bg img {
+	height: 100%;
+	width: 100%;
+	transition: .5s;	
+}
+
+.project-bg:hover img {
+	transform: scale(1.2);
+	transition: .5s;	
+}
+
+.pro-content:hover {
+	transform: translateY(-25px);
+	transition: .3s all;	
+}
+
+.pro-content p {
+	visibility: hidden;
+	transition: .1s all;	
+}
+
+.pro-content:hover p {
+	transform:translateY(-5px);
+	transition: .1s all;
+	visibility: visible;
+}
+
+.col-4 {
+	margin: 20px 0px;
+}
+
+.project-bg img:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+button {
+	color: #fff;
+	font-size: 18px;
+	text-transform: capitalize;
+	border: 2px solid rgba(198,201,216,.75);
+	font-weight: 500;
+	padding: 16px 60px;
+	margin: 30px 435px;
+	background: #eb3b5a;
+	border-radius: 50px;
+	border-color: #eb3b5a;
+	transition: .3s;
+	letter-spacing: -0.5px;
+}
+
+button:hover {
+	color: #eb3b5a;
+	background: #000;
+	transition: .3s;	
+}
+
+/* =============================================================================================
+                                       <0.8>  News Part CSS
+================================================================================================ */
+
+.news .news-title {
+	margin: 0px 290px;
+	text-align: center;
+}
+
+.news-title span {
+    font-size: 16px;
+    text-transform: capitalize;
+	font-weight: 500;
+	background: #ca3c08;
+	background: -webkit-linear-gradient(to right, #ED0E0E 10%, #6C17FF 34%);
+	background: -moz-linear-gradient(to right, #ED0E0E 10%, #6C17FF 34%);
+	background: linear-gradient(to right, #ED0E0E 10%, #6C17FF 34%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.news-bg {
+	position: relative;
+	border: 1px solid #000;
+	height: 100%;
+	width: 100%;
+	border: none;
+	overflow: hidden;
+	border-radius: 10px;
+	background-color: #000;
+	z-index: 1;
+	opacity: 1.1;
+}
+
+.news-content span {
+	color: #c5c5c5;
+	font-size: 18px;
+	text-transform: capitalize;
+}
+
+.news-title h4 {
+	color: #fff;
+	font-size: 54px;
+	text-transform: capitalize;
+	font-weight: 600;
+	line-height: 102px;
+}
+
+.news-title p {
+	color: #eee;
+	font-weight: 500;
+	text-transform: capitalize;
+	font-size: 18px;
+}
+
+.news-content {
+	position: absolute;
+	top: 350px;
+	left: 28px;
+	right: 0px;
+	bottom: 0px;
+	transition: .3s all;		
+}
+
+.news-bg img {
+	height: 100%;
+	width: 100%;
+	transition: .5s;	
+}
+
+.news-bg:hover img {
+	transform: scale(1.2);
+	transition: .5s;	
+}
+
+.news-content:hover {
+	transform: translateY(-25px);
+	transition: .3s all;
+	
+}
+
+.col-4 {
+	margin: 20px 0px;
+}
+
+.news-bg img:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+.news-content span {
+	color: #fff;
+	font-size: 16px;
+	text-transform: capitalize;
+}
+
+.news-content h4 {
+	color: #fff;
+	font-size: 23px;
+	text-transform: capitalize;
+	font-weight: 500;
+	line-height: 27px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.news-content a {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 500;
+	border: 1px solid rgb(160, 158, 158);
+	text-transform: uppercase;
+	background: #eb3b5a;
+	padding: 5px 10px;
+	text-decoration: none;
+	visibility: hidden;	
+}
+
+.news-content a {
+	visibility: hidden;
+	transition: .3s all;	
+}
+
+.news-content:hover a {
+	transform: translateY(-10px);
+	transition: .3s all;
+	visibility: visible;
+}
+
+
+/* =============================================================================================
+                                      <0.10>   Hire Me Part CSS
+================================================================================================ */
+
+
+.hire span {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: capitalize;
+	background: #ca3c08;
+	background: -webkit-linear-gradient(to right, #ED0E0E 10%, #6C17FF 34%);
+	background: -moz-linear-gradient(to right, #ED0E0E 10%, #6C17FF 34%);
+	background: linear-gradient(to right, #ED0E0E 10%, #6C17FF 34%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.hire h4 {
+	color: #fff;
+	font-size: 54px;
+	font-weight: 600;
+	text-transform: capitalize;
+	line-height: 90px;
+}
+
+.info p {
+	color: #eee;
+	font-weight: 500;
+	font-size: 16px;
+	text-transform: capitalize;
+}
+
+.info span {
+	color: #fff;
+	padding-left: 10px;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: none;
+	transition: .3s;
+}
+
+.info span:hover {
+	color:greenyellow;
+	transition: .3s;
+}
+
+input {
+	font-size: 15px;
+	text-transform: capitalize;
+	color: #fff;
+	width: 100%;
+	padding: 15px;
+	border-color: #575758;
+	background-color: rgb(8, 8, 8);
+	border-radius: 8px;
+}
+
+textarea {
+	font-size: 15px;
+	text-transform: capitalize;
+	color: #fff;
+	width: 100%;
+	padding: 15px;
+	border-color: #575758;
+	background-color: rgb(0, 0, 0);
+}
+
+.submit a {
+	color: rgba(198,201,216,.75);
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 500;
+	border: 2px solid rgba(198,201,216,.75);
+	background: #eb3b5a;
+	padding: 15px 50px;
+	border-radius: 50px;
+	text-decoration: none;
+	transition: .5s;
+	border-color: #eb3b5a;
+}
+
+.submit a:hover {
+    color: #fff;
+    background-color: #030303;
+    border-color: #000000;
+    transition: .5s;
+	border-color:#eb3b5a;
+}
+
+.hire-image img {
+	width: 100%;
+	height: auto;
+}
+
+
+/* =============================================================================================
+                                      <0.11>  Footer Part CSS
+================================================================================================ */
+
+
+.logo img {
+	width: 40%;
+	height: auto;
+}
+
+.social-icon i {
+	color: #fff;
+	border: 2px solid #e3d6d9;
+	background-color: black;
+	padding: 20px 20px;
+	border-radius: 50px;
+	margin: 5px;
+	transition: .3s;
+}
+
+.social-icon i:hover {
+	transform: translateY(-5px);
+	background-color: #eb3b5a;
+	border-color: #eb3b5a;
+
+}
+
+.copyright p {
+	color: #958c7a;
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: capitalize;
+	margin: 20px -50px;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                                                    THANK YOU
+  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+ 
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
